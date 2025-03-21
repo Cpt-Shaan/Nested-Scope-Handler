@@ -1,0 +1,30 @@
+begin
+    assign a 5
+    assign b 10
+    assign c 60
+    begin
+        assign a 50
+        assign b 70
+        begin
+            assign d 60
+            print d
+            assign a 1000
+            print a
+            print b
+        end
+        print a
+        print c
+    end
+    begin
+        assign hello 35
+        print hello
+        assign hello 45
+        print hello
+    end
+    begin
+        assign c 80
+        print c
+        print b
+    end
+    print a
+end
