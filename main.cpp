@@ -4,7 +4,7 @@ Using doubly Linked-list like implementation
 Built a symbol table from scratch using seperate-chaining hashing technique
 */
 
-// Including necessary languages
+// Including necessary libraries
 #include <iostream>
 #include <fstream>
 #include <sstream>
